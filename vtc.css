@@ -1,0 +1,382 @@
+h1 {
+	font-family: CMU Serif;
+	font-size: 64px;
+        color: black;
+        text-align: center;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+
+.primary_title {
+	color: #d2b72d;
+	padding-top: 250px;
+	padding-bottom: 20px;
+}
+
+.shop_title {
+	padding-top: 75px;
+}
+
+.about_title {
+	padding-top: 75px;
+}
+
+.guides_title {
+	padding-top: 75px;
+}
+
+.nutrition_title {
+	padding-top: 75px;
+}
+
+.reviews_title {
+	padding-top: 75px;
+}
+
+.contact_title {
+	padding-top: 75px;
+}
+
+h2 {
+	font-family: CMU Serif;
+	font-size: 36px;
+	color: black;
+	font-weight: normal;
+	letter-spacing: 2px;
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.vtcmain {
+	float: left;
+	max-width: 100px;
+	max-height: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 5px;
+}
+
+.top_nav {
+	font-family: ProximaNova;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	background-color: black;
+}
+
+	.pages {
+		color: #d2b72d;
+		float: center;
+		word-spacing: 30px;
+		padding-right: 95px;
+	}
+
+	.search {
+		float: right;
+		padding-right: 10px;
+	}
+
+	.search_inputbox {
+		font-family: ProximaNova;
+		border: 0px;
+		border-bottom: 1px solid #d2b72d;
+		color: #d2b72d;
+		background-color: #ffffff00;
+	}
+
+	.search_button {
+		font-family: ProximaNova;
+		font-size: 16px;
+		border: 0px solid #d2b72d;
+		border-right: 0px dashed #d2b72d;
+		color: #d2b72d;
+		background-color: #ffffff00;
+		border-radius: 0%;
+	}
+
+	a:link {
+		color: #d2b72d;
+		text-decoration: none;
+		background-color: none;
+	}
+
+	a:visited {
+		color: #d2b72d;
+		text-decoration: none;
+		background-color: none;
+	}
+
+	a:hover {
+		color: white;
+		text-decoration: none;
+		background-color: none;
+	}
+	
+	a:active {
+		color: white;
+		text-decoration: none;
+		background-color: none;
+	}
+
+.mainback {
+	background-image: url('img_mainbg.jpg');
+ 	background-attachment: fixed;
+  	background-position: top;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.large_images {
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 100px;
+	padding-bottom: 75px;
+	background-color: white;
+}	
+
+img {
+	max-width: 350px;
+	max-height: 350px;
+}
+
+.lower_image {
+	background-image: url('img_lowerbg.jpg');
+ 	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 800px;
+	background-size: 100%;
+	background-color: white;
+}
+
+body {
+	background-color: #000000;
+	font-family: ProximaNova;
+	font-size: 16px;
+	color: black;
+}
+
+p {
+	padding-left: 250px;
+	padding-right: 250px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+.buttons {
+	text-align: center;
+	padding-bottom: 275px;
+}
+
+.btn {
+  	font-family: ProximaNova;
+	letter-spacing: 2px;
+	border: 2px solid gold;
+  	background-color: #ffffff00;
+  	color: #d2b72d;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 56px;
+	padding-right: 56px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+	.collections {
+		border-color: #d2b72d; /* border */
+		color: #d2b72d; /* text */
+		background color: #ffffff00; /* background */
+	}
+
+	.collections:hover {
+  		border-color: #d2b72d; /* border on hover */
+		color: white; /* text on hover */
+		background-color: #d2b72d; /* background on hover */
+	}
+
+	.about {
+		border-color: #d2b72d;
+		color: #d2b72d;
+		background-color: #ffffff00;
+	}
+
+	.about:hover {
+		border-color: #d2b72d;
+		color: white;
+		background-color: #d2b72d;
+	}
+
+@font-face {
+	font-family: ProximaNova;
+	src: url(ProximaNova-Regular.ttf)
+}
+
+.bottom_nav {
+	font-family: ProximaNova;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	color: #d2b72d;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: black;
+}
+ 
+	.pages2 {
+		color: #d2b72d;
+		float: center;
+		word-spacing: 10px;
+	}
+
+.main_shop {
+	text-align: center;
+	background-color: white;
+	padding-bottom: 150px;
+}
+
+	.product_matrix {
+		color: black;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 50px;
+		letter-spacing: 1px;
+		line-height: 30px;
+	}
+		
+		td {
+			padding-bottom: 30px;
+		}
+
+	.prod_link {
+		color:#d2b72d;
+	}
+
+	.prod_link:hover {
+		color: black;
+
+	}
+
+.about_info {
+	background-color: white;
+	text-align: justify;
+	padding-bottom: 150px;
+}
+
+	li {
+		padding-left: 215px;
+		line-height: 30px;
+	}
+
+	.brands {
+		padding-left: 300px;
+		padding-right: 300px;
+	}
+
+.downloads {
+	text-align: center;
+	background-color: white;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-bottom: 150px;
+}
+
+	.nut {
+		border-color: black;
+		color: black;
+		background-color: #ffffff00;
+	}
+
+	.nut:hover {
+		border-color: #d2b72d;
+		color: white;
+		background-color: #d2b72d;
+	}
+
+	.standard {
+		border-color: black; /* border */
+		color: black; /* text */
+		background color: #ffffff00; /* background */
+	}
+
+	.standard:hover {
+		border-color: #d2b72d; /* border on hover */
+		color: white; /* text on hover */
+		background-color: #d2b72d; /* background on hover */
+	}
+
+	.corporate {
+		border-color: black; /* border */
+		color: black; /* text */
+		background color: #ffffff00; /* background */
+	}	
+
+	.corporate:hover {
+		border-color: #d2b72d; /* border on hover */
+		color: white; /* text on hover */
+		background-color: #d2b72d; /* background on hover */
+	}
+
+.reviews_list {
+	background-color: white;
+	padding-bottom: 150px;
+}
+	
+	.elizabeth {
+		text-align: left;
+		padding-bottom: 25px;
+	}
+
+	.craig {
+		text-align: right;
+		padding-bottom: 25px;
+	}
+	
+	.mark {
+		text-align: left;
+		padding-bottom: 25px;
+	}
+
+	.elliot {
+		text-align: right;
+		padding-bottom: 25px;
+	}
+
+	.james {
+		text-align: left;
+		padding-bottom: 25px;
+	}
+
+	.owain {
+		text-align: right;
+		padding-bottom: 25px;
+	}
+
+	.saarah {
+		text-align: left;
+		padding-bottom: 25px;
+	}
+
+	.lesley {
+		text-align: right;
+	}
+
+.contact_info {
+	background-color: white;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+	.contact_specific {
+		padding-left: 250px;
+		padding-right: 250px;
+	}
