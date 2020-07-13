@@ -97,25 +97,9 @@
 					</tr>
 					<tr>
 						<td><img src="Premium Assortment.png" alt="premium" style="width:100%">
-							<br><a href="premium.html" class="prod_link">Premium Assortment</a><br>£20.00</td>
-						<td><img src="Classics Assortment.png" alt="classics" style="width:100%">
-							<br><a href="classics.html" class="prod_link">Classics Assortment</a><br>£18.00</td>
-						<td><img src="Desserts Assortment.png" alt="desserts" style="width:100%">
-							<br><a href="desserts.html" class="prod_link">Desserts Assortment</a><br>£18.00</td>			
-						<td><img src="Romantic Assortment.png" alt="romantic" style="width:100%">
-							<br><a href="romantic.html" class="prod_link">Romantic Assortment</a><br>£20.00</td>
-					</tr>
-					<tr>
-						<td><img src="Dark Assortment.png" alt="dark" style="width:100%">
-							<br><a href="dark.html" class="prod_link">Dark Assortment</a><br>£18.00</td>
-						<td><img src="White Assortment.png" alt="white" style="width:100%">
-							<br><a href="white.html" class="prod_link">White Assortment</a><br>£18.00</td>
-						<td><img src="Craftsman's Picks.png" alt="craftsman" style="width:100%">	
-							<br><a href="craftsman.html" class="prod_link">Craftsman's Picks</a><br>£20.00</td>
-						<td><img src="Your Favourites.png" alt="your" style="width:100%">
-							<br><a href="yours.html" class="prod_link">Your Favourites</a><br>£20.00</td>
-
+							<br><a href="premium.html" class="prod_link">Premium Assortment</a><br>£18.00</td>
 			
+
 				</table>
 
 		</div>
