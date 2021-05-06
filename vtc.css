@@ -11,6 +11,11 @@
 }
 
 @font-face {
+        font-family: CMU-Italic;
+        src: url(Fonts/CMUItalic.ttf);
+}
+
+@font-face {
 	font-family: ProximaNova;
 	src: url(Fonts/ProximaNova-Regular.ttf)
 }
@@ -21,7 +26,11 @@ h1 {
 	color: black;
 	text-align: center;
 	font-weight: normal;
+	font-variant: small-caps;
 	letter-spacing: 0.075em;
+	margin: 0;
+	padding-top: 7.5%;
+	padding-bottom: 2.5%
 }
 
 h2 {
@@ -34,6 +43,10 @@ h2 {
 
 b {
 	font-family: CMU-Bold;
+}
+
+i {
+	font-family: CMU-Italic;
 }
 
 body {
@@ -52,12 +65,11 @@ body {
 	
 	.logo {
 		float: left;
-		padding-top: 1em;
-		padding-bottom: 1.25em;
+		padding-top: 1.2vw;
 	}
 
 		.logo img {
-			width: 6.5em;
+			width: 7.5vw;
 		}
 
 	.pages-header {
@@ -67,17 +79,17 @@ body {
 		word-spacing: 1.75vw;
 		letter-spacing: 0.25vw;
 		padding-top: 3.75em;
-		padding-bottom: 1.25em;
+		padding-bottom: 3.75em;
 	}
 
-		a:link, a:visited {
+		.pages-header a:link, .pages-header a:visited, .pages-footer a:link, .pages-footer a:visited {
 			color: #d2b72d;
 			text-decoration: none;
 			background-color: none;
 		}
 
-		a:hover, a:active {
-			color: white;
+		.pages-header a:hover, .pages-header a:active, .pages-footer a:hover, .pages-footer a:active {
+			color: #FFFFFF;
 			text-decoration: none;
 			background-color: none;
 		}
@@ -107,7 +119,7 @@ body {
 /* Body Cage */
 
 .bodycage {
-	padding-bottom: 1.25em;
+	padding-bottom: 2.5%;
 	padding-left: 10%;
 	padding-right: 10%;
 	background-color: #FFFFFF;
@@ -122,14 +134,30 @@ body {
 	line-height: 2vw;
 	color: #000000;
 	background-color: #FFFFFF;
-	padding-top: 0.75em;
-	padding-bottom: 1.25em;
-	padding-left: 1.25em; 
-	padding-right: 1.25em;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	padding-left: 2.5%; 
+	padding-right: 2.5%;
 }	
+
+	.body a:link, .body a:visited { 
+                color: #000000;
+                text-decoration: none;
+                background-color: none;
+        }
+
+        .body a:hover, .body a:active {
+                color: #d2b72d;
+                text-decoration: none;
+                background-color: none;
+        }
 
 	.body img {
 		width: 14em;
+	}
+
+	.body img:hover {
+		opacity: 95%;
 	}
 
 /* Tables & Lists */
@@ -137,6 +165,7 @@ body {
 td {
 	text-align: center;
 	vertical-align: top;
+	padding-bottom: 1.75em;
 	padding-right: 0.75em;
 	width:auto;
 }
@@ -149,13 +178,63 @@ td {
   	background-position: top;
   	background-repeat: no-repeat;
   	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 15%;
 }
 
 	.upper-image h1 {	
 		color: #d2b72d;
-		padding-top: 15%;
+		padding: 0;
+	}
+
+	.upper-image h2 {
+		color: #d2b72d;
+		text-align: center;
+		font-size: 2vw;
 		padding-bottom: 1.5%;
 	}
+
+	.upper-image-buttons {
+		text-align: center;
+	}
+
+		.button-collections, .button-about {
+		  	font-family: ProximaNova;
+			font-size: 1.125vw;
+			letter-spacing: 0.25vw;
+			border: 0.05em solid #d2b72d;
+		  	background-color: #ffffff00;
+		  	color: #d2b72d;
+			padding-top: 1vw;
+			padding-bottom: 0.9vw;
+			padding-left: 2.5vw;
+			padding-right: 2.5vw;
+			cursor: pointer;
+		}
+	
+			.button-collections:hover, .button-about:hover {
+				color: #FFFFFF;
+				background-color: #d2b72d;
+			}
+	
+		.button-guides {
+		  	font-family: ProximaNova;
+			font-size: 1.125vw;
+			letter-spacing: 0.25vw;
+			border: 0.125em solid #000000;
+		  	background-color: #ffffff00;
+		  	color: #000000;
+			padding-top: 1.5vw;
+			padding-bottom: 1.5vw;
+			padding-left: 3vw;
+			padding-right: 3vw;
+			cursor: pointer;
+		}
+
+			.button-guides:hover {
+				color: #000000;
+				background-color: #d2b72d;
+			}
 
 .lower-image {
 	background-image: url('Photos_Home/lowerbg.jpg');
@@ -165,46 +244,3 @@ td {
 	background-size: cover;
 	padding-bottom: 35%;
 }
-
-.upper-image-buttons {
-	text-align: center;
-	padding-bottom: 15%;
-}
-
-	.button-collections, .button-about {
-	  	font-family: ProximaNova;
-		font-size: 1.125vw;
-		letter-spacing: 0.25vw;
-		border: 0.125em solid #d2b72d;
-	  	background-color: #ffffff00;
-	  	color: #d2b72d;
-		padding-top: 1.5vw;
-		padding-bottom: 1.5vw;
-		padding-left: 3vw;
-		padding-right: 3vw;
-		cursor: pointer;
-	}
-
-		.button-collections:hover, .button-about:hover {
-			color: #FFFFFF;
-			background-color: #d2b72d;
-		}
-
-	.button-guides {
-	  	font-family: ProximaNova;
-		font-size: 1.125vw;
-		letter-spacing: 0.25vw;
-		border: 0.125em solid #000000;
-	  	background-color: #ffffff00;
-	  	color: #000000;
-		padding-top: 1.5vw;
-		padding-bottom: 1.5vw;
-		padding-left: 3vw;
-		padding-right: 3vw;
-		cursor: pointer;
-	}
-
-		.button-guides:hover {
-			color: #000000;
-			background-color: #d2b72d;
-		}
