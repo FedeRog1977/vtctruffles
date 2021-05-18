@@ -1,0 +1,101 @@
+\documentclass[11pt, english]{article}
+        \usepackage{geometry}
+                \geometry{
+                        a4paper,total={210mm,297mm},
+                        tmargin=10mm,
+                        bmargin=24mm,
+                        lmargin=24mm,
+                        rmargin=24mm,
+                }
+
+        \usepackage{titlesec}
+
+                \titleformat{\section}
+                        {\fontsize{22}{16}\scshape}{}{0em}{}
+                \titleformat{\subsection}
+                        {\fontsize{18}{16}\scshape}{}{0em}{}
+
+        \newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+                \setcounter{tocdepth}{5}
+                \setcounter{secnumdepth}{5}
+
+        \usepackage{hyperref}
+                \hypersetup{
+                        colorlinks=true,
+                        linkcolor=black,
+                        filecolor=magenta,
+                        urlcolor=cyan,
+                        }
+
+	\setlength{\parindent}{0pt}
+        \usepackage{setspace}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+        \title{
+                \huge{\textsc{Virtuous Truffle Company}}\\
+                \large{\textsc{Premium Confectionery}}\\
+		\large{\textit{Receipt of Purchase}}
+                \HRule{0.5pt}\\ [-1.75cm]
+                }
+        \author{}
+	\date{}
+        \maketitle
+
+	\begin{center}
+	        \scriptsize
+	\begin{tabular}{r|l}
+	        \textsc{Mail To:} vtc.truffles@yahoo.com & \textsc{Telephone:} 07415 212 056\\
+	        \textsc{Website:} \href{http://vtctruffles.co.uk}{vtctruffles.co.uk} & \textsc{Address:} 0/1, 94 Braidholm Rd. G46 6DF\\
+	\end{tabular}
+	\end{center}
+
+	\vspace{0.25cm}
+
+	\begin{table}[h]
+		\footnotesize
+		\renewcommand{\arraystretch}{1.25}
+	\begin{center}
+	\begin{tabular}{p{4cm}p{4cm}|rl}
+		\textsc{Billing To} & \textsc{Shipping To} & \textsc{Receipt Number} & 0976\\
+		\cline{1-2}
+		Name & Name & \textsc{Receipt Date} & DD/MM/YYYY\\
+		N Road & N Road & \textsc{Postal Date} & DD/MM/YYYY\\
+		Town, Postcode & Town, Postcode & \textsc{Est. Due Date} & DD/MM/YYYY\\
+	\end{tabular}
+	\end{center}
+	\end{table}
+
+	\begin{table}[h]
+		\footnotesize
+		\renewcommand{\arraystretch}{1.25}
+	\begin{center}
+	\begin{tabular}{|p{2cm}|p{6cm}|p{3cm}|p{3cm}|}
+		\hline
+		\textsc{Quantity} & \textsc{Product / Description} & \textsc{Unit Price} & \textsc{Price}\\
+		\hline
+		\hline
+		0 & N/A & \pounds00.00 & \pounds00.00 \\
+		0 & N/A & \pounds00.00 & \pounds00.00 \\
+		0 & N/A & \pounds00.00 & \pounds00.00 \\
+		\hline
+		\multicolumn{2}{l|}{} & \textsc{Subtotal} & \pounds00.00 \\
+		\multicolumn{2}{l|}{} & \textsc{Discount} & 00.00\% \\
+		\multicolumn{2}{l|}{} & \textsc{Shipping} & \pounds00.00 \\
+		\cline{3-4}
+		\cline{3-4}
+		\multicolumn{2}{l|}{} & \textsc{Total} & \\
+		\cline{3-4}
+	\end{tabular}
+	\end{center}
+	\end{table}
+
+	\vspace\fill
+
+	\textsc{Lewis W. Britton}\\
+	\textsc{Virtuous Truffle Company}\\
+	\textsc{2021}
+
+\end{document}
